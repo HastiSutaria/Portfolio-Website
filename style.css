@@ -336,7 +336,7 @@ section .title::after {
   width: 100%;
   background: crimson;
   position: relative;
-  opacity: 50%;
+ 
 }
 .skills .skills-content .right .line::before {
   content: "";
@@ -345,7 +345,7 @@ section .title::after {
   left: 0;
   top: 0;
   background: crimson;
-  opacity: 50%;
+
 }
 
 /* projects section styling */
