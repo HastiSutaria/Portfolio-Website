@@ -243,10 +243,8 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                   <form action=”mailto:hastisutaria.ict19@gmail.com”
-                         method=”POST”
-                         enctype=”multipart/form-data”
-                         name=”EmailForm”>
+                   <form action="mailto:hastisutaria.ict19@gmail.com" method="POST">
+                       <input type ="hidden" name="_subject" value = "Portfolio Contact Form Submission">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -264,6 +262,7 @@
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
+                       <input type ="hidden" name="_next" value="https://optinmonster.com/anatomy-of-the-perfect-thank-you-page/">
                     </form>
                 </div>
             </div>
